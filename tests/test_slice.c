@@ -1,7 +1,7 @@
 #include <onnx.h>
 
 
-static const char* test_base_dir = "/home/lzy/Code/C/onnx-learn/test_data/";
+static const char* test_base_dir = "/home/lzy/Code/C/libonnx-F/test_data/";
 
 const char* join(const char* s1, const char* s2){
   char* res = malloc(strlen(s1)+strlen(s2)+1);
